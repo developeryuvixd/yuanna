@@ -159,40 +159,9 @@ html,body{
 
 /* CHARACTER SECTION */
 
-.right{
-
-    width:100%;
-
-    display:flex;
-    justify-content:center;
-    align-items:flex-end;
-}
-
-.right img{
-
-    height:45vh;
-
-    object-fit:contain;
-
-    animation:float 5s ease-in-out infinite;
-}
 
 /* FLOATING ANIMATION */
 
-@keyframes float{
-
-    0%{
-        transform:translateY(0px);
-    }
-
-    50%{
-        transform:translateY(-10px);
-    }
-
-    100%{
-        transform:translateY(0px);
-    }
-}
 
 /* PETALS */
 
